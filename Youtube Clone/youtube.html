@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YouTube.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+            <img class="upload-icon" src="icons/upload.svg">
+            <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="tooltip">Notifications</div>
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="channel-icons/channel-icon.jpg">
+        </div>
+    </header>
+
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>
+                Home
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>
+               Explore
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>
+                Subscriptions
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>
+                Originals
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>
+                YouTube Music
+            </div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>
+                Library
+            </div>
+        </div>
+    </nav>
+
+    <main>
+    <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=SomfZJpWa6A&t=15s" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail1.webp">
+                </a>
+                <div class="time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/CongVelasquez" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon1.jpg">
+                    </a>
+                    <!--Tooltip-->
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon1.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">CongTV &#10003;</p>
+                            <p class="icon-tooltip-subscriber">9.92M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=SomfZJpWa6A&t=15s" target="_blank" class="video-title-link"><p class="video-title">
+                        DEWDA
+                    </p></a>
+                    <p class="video-author">
+                        CongTV &#10003;
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0tDJmoMeUuI" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail2.webp">
+                </a>
+                <div class="time">
+                    3:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/FlipMusicRecordsPH" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon2.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon2.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">FlipMusic Records PH</p>
+                            <p class="icon-tooltip-subscriber">196K subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=0tDJmoMeUuI" target="_blank" class="video-title-link"><p class="video-title">
+                        ROSAS - Official Music Video
+                    </p></a>
+                    <p class="video-author">
+                        FlipMusic Records PH
+                    </p>
+                    <p class="video-stats">
+                        1.3M views &#183; 2 weeks ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=sFIbcgHrGSg" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail3.webp">
+                </a>
+                <div class="time">
+                    3:18
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/marvel" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon3.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon3.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">Marvel Entertainment &#10003;</p>
+                            <p class="icon-tooltip-subscriber">18.9M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=sFIbcgHrGSg" target="_blank" class="video-title-link"><p class="video-title">
+                        NIKI - Every Summertime | Marvel Studios' Shang-Chi and The Legend of The Ten Rings
+                    </p></a>
+                    <p class="video-author">
+                        Marvel Entertainment &#10003;
+                    </p>
+                    <p class="video-stats">
+                        10M views &#183; 8 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=IhNifdQf5Oo" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail4.webp">
+                </a>
+                <div class="time">
+                    4:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/channel/UCdehB2bebkzYmju13g3MKFA" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon4.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon4.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">Al James &#9834;</p>
+                            <p class="icon-tooltip-subscriber">700K subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=IhNifdQf5Oo" target="_blank" class="video-title-link"><p class="video-title">
+                        Al James - PSG (Official Music Video)
+                    </p></a>
+                    <p class="video-author">
+                        Al James &#9834;
+                    </p>
+                    <p class="video-stats">
+                        25M views &#183; 3 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/c/PlayVALORANT" target="_blank">
+                <img class="thumbnail" src="thumbnails/thumbnail5.webp">
+                </a>
+                <div class="time">
+                    10:15
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/PlayVALORANT" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon5.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon5.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">VALORANT &#10003;</p>
+                            <p class="icon-tooltip-subscriber">1.56M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=e_E9W2vsRbQ" target="_blank" class="video-title-link"><p class="video-title">
+                        DUELISTS // Official Launch Cinematic Trailer - VALORANT
+                    </p></a>
+                    <p class="video-author">
+                        VALORANT &#10003;
+                    </p>
+                    <p class="video-stats">
+                        10M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=wF6cXHwjIQs" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail6.webp">
+                </a>
+                <div class="time">
+                    22:29
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/IvanaAlawi" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon6.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon6.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">Ivana Alawi &#10003;</p>
+                            <p class="icon-tooltip-subscriber">15.4M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=wF6cXHwjIQs" target="_blank" class="video-title-link"><p class="video-title">
+                        MY FOLLOWERS CONTROL MY DAY! | IVANA ALAWI
+                    </p></a>
+                    <p class="video-author">
+                        Ivana Alawi &#10003;
+                    </p>
+                    <p class="video-stats">
+                        1.7M views &#183; 1 day ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=2fDzCWNS3ig" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail7.webp">
+                </a>
+                <div class="time">
+                    4:48
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icoon7.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icoon7.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">The Weeknd &#9834;</p>
+                            <p class="icon-tooltip-subscriber">28.2M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=2fDzCWNS3ig" target="_blank" class="video-title-link"><p class="video-title">
+                        The Weeknd - Out of Time (Official Video)
+                    </p></a>
+                    <p class="video-author">
+                        The Weeknd &#9834;
+                    </p>
+                    <p class="video-stats">
+                        31M views &#183; 3 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=S2ujotDMluo" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail8.webp">
+                </a>
+                <div class="time">
+                    4:43
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/channel/UCPXsbHi_SZ6nT28QXIx-gTw" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon8.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon8.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">Engelbert Humperdinck &#9834;</p>
+                            <p class="icon-tooltip-subscriber">182K subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=S2ujotDMluo" target="_blank" class="video-title-link"><p class="video-title">
+                        A Man Without Love - Engelbert Humperdinck
+                    </p></a>
+                    <p class="video-author">
+                        Engelbert Humperdinck &#9834;
+                    </p>
+                    <p class="video-stats">
+                        3M views &#183; 2 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=kTlv5_Bs8aw" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail9.webp">
+                </a>
+                <div class="time">
+                    4:34
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/HYBELABELS" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon9.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon9.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">HYBE LABELS &#10003;</p>
+                            <p class="icon-tooltip-subscriber">65.6M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=kTlv5_Bs8aw" target="_blank" class="video-title-link"><p class="video-title">
+                        BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV
+                    </p></a>
+                    <p class="video-author">
+                        HYBE LABELS &#10003;
+                    </p>
+                    <p class="video-stats">
+                        1.2M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=dlFA0Zq1k2A" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail10.webp">
+                </a>
+                <div class="time">
+                    4:43
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/channel/UCGZcFTKIVXJLt1uo1dHfjAQ" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon10.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon10.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">KANA-BOON Official YouTube Channel &#10003;</p>
+                            <p class="icon-tooltip-subscriber">65.6M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=dlFA0Zq1k2A" target="_blank" class="video-title-link"><p class="video-title">
+                        KANA-BOON - Silhouette
+                    </p></a>
+                    <p class="video-author">
+                        KANA-BOON Official YouTube Channel &#10003;
+                    </p>
+                    <p class="video-stats">
+                        225M views &#183; 6 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=tfSS1e3kYeo" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail11.webp">
+                </a>
+                <div class="time">
+                    4:43
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/channel/UCtxdfwb9wfkoGocVUAJ-Bmg" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon11.jpg">
+                    </a>
+                    <div class="icon-tooltip">
+                        <img class="icon-tooltip-picture" src="channel-icons/icon11.jpg">
+                        <div class="icon-tooltip-info">
+                            <p class="icon-tooltip-author">Travis Scott &#9834;</p>
+                            <p class="icon-tooltip-subscriber">15.9M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=tfSS1e3kYeo" target="_blank" class="video-title-link"><p class="video-title">
+                        Travis Scott - HIGHEST IN THE ROOM (Official Music Video)
+                    </p></a>
+                    <p class="video-author">
+                        Travis Scott &#9834;
+                    </p>
+                    <p class="video-stats">
+                        513M views &#183; 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=rRzxEiBLQCA" target="_blank" class="video-title-link">
+                <img class="thumbnail" src="thumbnails/thumbnail12.webp">
+                </a>
+                <div class="time">
+                    4:43
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/c/JYPEntertainment" target="_blank">
+                    <img class="profile-picture" src="channel-icons/icon12.jpg">
+                </a>
+                <div class="icon-tooltip">
+                    <img class="icon-tooltip-picture" src="channel-icons/icon12.jpg">
+                    <div class="icon-tooltip-info">
+                        <p class="icon-tooltip-author">JYP Entertainment &#9834;</p>
+                        <p class="icon-tooltip-subscriber">24.5M subscribers</p>
+                    </div>
+                </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=rRzxEiBLQCA" target="_blank" class="video-title-link"><p class="video-title">
+                        TWICE "Heart Shaker" M/V
+                    </p></a>
+                    <p class="video-author">
+                       JYP Entertainment &#10003;
+                    </p>
+                    <p class="video-stats">
+                        415M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    
+</body>
+</html>
